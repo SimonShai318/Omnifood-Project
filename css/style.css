@@ -215,10 +215,10 @@ header {
 }
 /* //////////////////////////////// */
 /* Feature  */
-.section-featured{
-  padding: 4.8rem 0 ;
+.section-featured {
+  padding: 4.8rem 0;
 }
-.heading-featured-in{
+.heading-featured-in {
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.7px;
@@ -226,31 +226,15 @@ header {
   text-align: center;
   margin-bottom: 6rem;
 }
-.logos{
-  display: flex ;
-  justify-content: center ;
+.logos {
+  display: flex;
+  justify-content: center;
   justify-content: space-between;
 }
-.logos img{
+.logos img {
   height: 3.2rem;
-  filter: brightness(0)
-  opacity(50%)
-
+  filter: brightness(0) opacity(50%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /***************************/
 /********HOW IT WORKS SECTOION************/
@@ -332,52 +316,44 @@ header {
   line-height: 1.6;
 }
 /* //////////////////////////////////////// */
-.section-meals{
-  padding: 9.6rem 0 ;
+.section-meals {
+  padding: 9.6rem 0;
 }
-.meal-img{
+.meal-img {
   width: 100%;
-
 }
-.meal-title{
+.meal-title {
   font-size: 2.4rem;
-  color:#333;
+  color: #333;
   font-weight: 600;
   margin-bottom: 3.2rem;
-  
 }
-.meal-attributes{
+.meal-attributes {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  
-  
-
 }
-.meal-attribute{
+.meal-attribute {
   font-size: 1.8rem;
   display: flex;
   align-items: center;
   gap: 1.6rem;
-
 }
-.meal-icon{
+.meal-icon {
   height: 2.4rem;
   width: 2.4rem;
   color: #e67e22;
-
 }
-.meal{
-  box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.1);
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   overflow: hidden;
-
 }
-.meal-tags{
+.meal-tags {
   margin-bottom: 1.2rem;
 }
-.tag{
+.tag {
   display: inline-block;
   padding: 0.4rem 0.8rem;
   text-transform: uppercase;
@@ -385,19 +361,99 @@ header {
   font-weight: 600;
   background-color: #51cf66;
 
-  border-radius:100px;
+  border-radius: 100px;
 }
 
-.meal-content{
+.meal-content {
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 
-.list{
+.list {
   font-size: 2.6rem;
   font-weight: 600;
   color: #333;
   margin-bottom: 2.8rem;
 }
-.list-attribute{
+.list-attribute {
   padding-top: 4px;
+}
+
+.all-recipes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link{
+  color: #e67e22;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.link:hover{
+  color: #cf711f;
+}
+
+
+
+
+/**************************/
+/* TESTIMONIALS SECTION */
+/**************************/
+
+.section-testimonials {
+  background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+
+.testimonials-container {
+  padding: 9.6rem;
+}
+.testimonials-container h2{
+  margin-bottom: 9.8rem;
+}
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
